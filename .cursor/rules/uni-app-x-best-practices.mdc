@@ -23,3 +23,9 @@ uni-app x项目使用UTS语言编写script。 UTS是一种跨平台的强类型�
     - 生成的uvue页面放置在项目的pages目录下，生成的页面需要在pages.json中注册。
     - 可滚动内容必须在scroll-view、list-view、waterflow等滚动容器中。如果页面需要滚动，则在页面template的一级子节点放置滚动容器，例如` <scroll-view style="flex:1">`。 此时应在 App 上使用条件编译，例如：`<!-- #ifdef APP --><scroll-view class="container"><!-- #endif -->`。
     - 生成uvue页面时，页面内容需符合uts.mdc、uvue.mdc、ucss.mdc、api.mdc约定的规范。
+
+
+## 文档资源
+
+- 官方文档：https://doc.dcloud.net.cn/uni-app-x/
+- uniCloud：https://doc.dcloud.net.cn/uniCloud/
